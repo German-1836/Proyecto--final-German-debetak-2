@@ -1,0 +1,105 @@
+
+body {
+  background-color: #e8c39e;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 30px;
+  font-size: x-large;
+}
+
+#redes {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: smaller;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  align-items: center;
+  
+  
+}
+
+#redes a {
+  background-color: #b08e6b;
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  text-decoration: none;
+  
+}
+
+#redes :hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+  
+
+
+
+#productos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#productos :hover{
+  font-weight: bold;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    
+  }
+  #productos :hover img {
+    transform: scale(1.1)
+  }
+
+
+.producto {
+  
+  border: 1px solid black;
+  text-align: center;
+  margin: 10px;
+  
+}
+
+
+.producto * {
+  margin: 4px;
+}
+
+.producto img {
+  width: 150px;
+  height: 150px;
+}
+
+#seccionInfo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  text-align: center;
+}
+
+#seccionCarrito {
+  background-color: #f5e1ce;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  text-align: center;
+  border: 1px solid black;
+}
+
+
+table * {
+  text-align: center;
+}

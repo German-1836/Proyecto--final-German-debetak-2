@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIENDA GD</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1>Tienda de Articulos deportivos y Suplementos</h1>
+    <h2>GD</h2>
+    <div id="redes" class="animate__animated animate__bounce">
+        <a href="https://www.Instagram.com">Instagram</a>
+        <a href="https://www.facebook.com">Facebook</a>
+        <a href="https://www.Tiktok.com">Tiktok</a>
+    </div>
+   
+    <div id="seccionInfo">
+        <label>Ingrese nombre del producto :</label>
+    <input placeholder="Nombre del producto" id="inputNombre">
+        <label>Ingrese categoria:  suplementos/accesorios</label>
+    <input placeholder="Ingrese categoria" id="inputCategoria">
+    <button id="botonBuscar">Buscar</button>
+
+</div>
+<div id ="productos">
+
+</div>
+
+
+
+    <div id="seccionCarrito">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Precio unitario</th>
+                    <th>Unidades</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody id="carrito">
+    
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">
+                        <h3>Total: $ <span id="montoTotal">0</span></h3>
+                        <button id="comprar">Comprar</button>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
